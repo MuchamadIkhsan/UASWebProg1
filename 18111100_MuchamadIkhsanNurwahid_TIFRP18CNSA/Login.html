@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>Login</title>
+        <link rel="stylesheet" href="bootstrap-4.5.3-dist/css/bootstrap.min.css">
+        <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="bootstrap-4.5.3-dist/js/bootstrap.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="container-fluid">
+            <div class="box">
+                <form class="formLogin" method="POST" action="Beranda.html" onSubmit="return validasi()">
+                    <div class="col-md-12">
+                        <h1 style="text-align: center;" >Login</h1>
+                        <p></p>
+                        <label>Email</label>
+                        <input type="email" name="Email" id="email" class="form-control" placeholder="Email"/>
+                        <p></p>
+                        <label>Password</label>
+                        <input type="password" name="Password" id="password" class="form-control" placeholder="Password"/>
+                        <p></p>
+                        <input type="submit" name="login" value="Login" class="btn btn-dark" role="button" style="color: whitesmoke;"></input>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <footer>
+            <center><p style="color: black;"> @copyright 18111100-Muchamad Ikhsan Nurwahid-TIFRP18CNSA</p></center>
+            
+        </footer>
+    </body>
+
+    <script>
+        function validasi(){
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+
+            if (document.forms["formLogin"]["email"].value =="") {
+                alert("Mohon Maaf Email Belum Di Isi ")
+                return false;
+            }else if (document.forms["formLogin"]["password"].value =="") {
+                alert("Mohon Maaf Password Belum Di Isi ")
+                return false;
+            } 
+            alert("Login Berhasil")
+        }
+    </script>
+</html>

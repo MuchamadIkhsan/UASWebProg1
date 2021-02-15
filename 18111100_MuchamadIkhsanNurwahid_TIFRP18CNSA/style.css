@@ -1,0 +1,61 @@
+body{
+    background: url(Gambar/camping.jpg)
+}
+.row1{
+    background-color: orange;
+}
+
+.Tulisan{
+    color: black;
+    text-align: center;
+    align-items: center;
+}
+
+.pengertianmapala{
+    background-color: lightskyblue;
+}
+
+.row{
+    color: brown;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
+
+.row3{
+    background-color: orangered;
+}
+
+.card1{
+    margin-top: 10px;
+    color:rgb(3, 212, 212);
+    margin-left: auto;
+    margin-right: auto;
+   align-items: center;
+   background: url(Gambar/Suraung.png);
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 640px;
+    width: 640px;
+}
+
+.box{
+    margin-top: 150px;
+    color:black;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 330px;
+    width: 350px;
+}
+
+.card2{
+    margin-top: 10px;
+    color:rgb(245, 173, 18);
+    margin-left: auto;
+    margin-right: auto;
+   align-items: center;
+    box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+    height: 600px;
+    width: 640px;
+}
